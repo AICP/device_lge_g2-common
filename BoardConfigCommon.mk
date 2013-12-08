@@ -118,8 +118,6 @@ TARGET_NO_RPC := true
 
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-BOARD_HARDWARE_CLASS := device/lge/g2-common/cmhw/
-
 BOARD_SEPOLICY_DIRS += \
         device/lge/g2-common/sepolicy
 
@@ -147,3 +145,4 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 # of the device.
 MAX_EGL_CACHE_SIZE := 2048*1024
 
+USE_SET_METADATA := false
