@@ -178,6 +178,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	hwaddrs
+	
+# Wifi
+PRODUCT_PACKAGES += \
+    libnetcmdiface
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	rild.libpath=/vendor/lib/libril-qc-qmi-1.so
