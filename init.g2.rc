@@ -379,7 +379,7 @@ service cnd /system/bin/cnd
     socket cnd stream 660 root inet
 
 service thermal-engine /system/bin/thermal-engine --time=20
-   class main
+   class late_start
    user root
    group root
 
