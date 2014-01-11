@@ -691,7 +691,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         send(rrSPT);
 
 
-        super.setupDataCall(radioTechnology, profile, apn, user, password, 
+        super.setupDataCall(radioTechnology, profile, apn, user, password,
                             authType, protocol, result);
     }*/
 }
