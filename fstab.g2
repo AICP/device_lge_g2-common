@@ -14,4 +14,4 @@
 /dev/block/platform/msm_sdcc.1/by-name/boot         /boot           emmc    defaults                                                        defaults
 /dev/block/platform/msm_sdcc.1/by-name/recovery     /recovery       emmc    defaults                                                        defaults
 
-/devices/platform/xhci-hcd auto vfat defaults voldmanaged=usb:auto
+/devices/platform/xhci-hcd auto auto defaults voldmanaged=usb:auto
