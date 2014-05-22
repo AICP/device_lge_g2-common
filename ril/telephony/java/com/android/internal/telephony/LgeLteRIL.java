@@ -210,7 +210,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
             Log.d(LOG_TAG, "This is a GSM PHONE " + appIndex);
         }
 
-        if (cardState == RILConstants.SIM_ABSENT) {
+        if (cardState == 0) { // CardState.CARDSTATE_ABSENT
             return status;
         }
 
@@ -710,3 +710,4 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
     }
 
 }
+
