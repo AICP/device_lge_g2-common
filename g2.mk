@@ -239,10 +239,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
         lights.g2
 
-# Input resampling configuration
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.input.noresample=1
-
 # This hw ships locked, work around it with loki
 PRODUCT_PACKAGES += \
         loki.sh \
