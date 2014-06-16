@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(filter hammerhead, $(TARGET_DEVICE)),)
+ifneq ($(filter g2 d800 d801 d802 d803 vs980 ls980,$(TARGET_DEVICE)),)
 
 LOCAL_PATH:= $(call my-dir)
 
