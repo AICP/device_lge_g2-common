@@ -106,6 +106,10 @@ on boot
 
     chown root system /proc/net/ip_conntrack
 
+    write /sys/devices/system/cpu/cpu1/online 1
+    write /sys/devices/system/cpu/cpu2/online 1
+    write /sys/devices/system/cpu/cpu3/online 1
+
     # Enable DEBUG_SUSPEND, DEBUG_EXIT_SUSPEND, and DEBUG_WAKEUP
     write /sys/module/wakelock/parameters/debug_mask 7
 
@@ -147,7 +151,6 @@ on boot
     setprop net.tcp.buffersize.hspa     4094,87380,704512,4096,16384,110208
     setprop net.tcp.buffersize.hsupa    4094,87380,704512,4096,16384,110208
 
-on boot
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
     chmod 0660 /sys/class/rfkill/rfkill0/state
@@ -248,9 +251,6 @@ on post-fs-data
     write /sys/module/msm_pm/modes/cpu3/retention/idle_enabled 0
 
     write /sys/module/msm_thermal/core_control/enabled 0
-    write /sys/devices/system/cpu/cpu1/online 1
-    write /sys/devices/system/cpu/cpu2/online 1
-    write /sys/devices/system/cpu/cpu3/online 1
 
     write /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate 50000
     write /sys/devices/system/cpu/cpufreq/ondemand/up_threshold 90
