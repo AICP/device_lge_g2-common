@@ -1,0 +1,4 @@
+#!/system/bin/sh
+if [ -e /sdcard/dt2woff ]; then
+echo 0 >> /sys/devices/virtual/input/lge_touch/touch_gesture
+fi
