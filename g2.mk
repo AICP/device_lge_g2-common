@@ -62,10 +62,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/touch_dev.idc:system/usr/idc/touch_dev.idc
 
-#Disable KnockOn script
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/etc/init.d/99dt2w:system/etc/init.d/99dt2w
-
 # Prepatch to fix BT/WiFi bus lockups
 PRODUCT_COPY_FILES += device/lge/g2-common/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
@@ -246,6 +242,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
         lights.g2
+
+# Misc Packages
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # This hw ships locked, work around it with loki
 PRODUCT_PACKAGES += \
