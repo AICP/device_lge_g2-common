@@ -111,6 +111,11 @@ static char * camera_fixup_getparams(int id, const char * settings)
         videoMode = (!strcmp(params.get(android::CameraParameters::KEY_RECORDING_HINT), "true"));
     }
 
+    // fix params here
+    if (id == 0) {
+        params.set(android::CameraParameters::KEY_PREVIEW_FRAME_RATE, "30");
+    }
+
     /* Set supported scene modes */
     if (!videoMode) {
         manipBuf = strdup(params.get(android::CameraParameters::KEY_SUPPORTED_SCENE_MODES));
