@@ -20,6 +20,6 @@
                 android:key="dt2wake_switch"
                 android:title="@string/dt2wake_summary_head"
                 android:summary="@string/dt2wake_summary"
-                android:defaultValue="0" />
+                android:defaultValue="1" />
     </PreferenceCategory>
 </PreferenceScreen>

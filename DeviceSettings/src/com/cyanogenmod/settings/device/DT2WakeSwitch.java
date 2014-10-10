@@ -25,7 +25,7 @@ public class DT2WakeSwitch implements OnPreferenceChangeListener {
         }
 
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-        boolean enabled = sharedPrefs.getBoolean(TouchscreenFragmentActivity.KEY_DT2WAKE_SWITCH, false);
+        boolean enabled = sharedPrefs.getBoolean(TouchscreenFragmentActivity.KEY_DT2WAKE_SWITCH, true);
 
         File blFile = new File(FILE);
         if(enabled) {
