@@ -270,6 +270,7 @@ on post-fs-data
     chmod 0660 /sys/class/leds/led:flash_torch/brightness
 
     chown system system /sys/devices/virtual/input/lge_touch/touch_gesture
+    write /sys/devices/virtual/input/lge_touch/touch_gesture 1
     chown root system /sys/devices/platform/tspdrv/nforce_timed
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
