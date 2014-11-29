@@ -121,6 +121,19 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += \
         device/lge/g2-common/sepolicy
 
+BOARD_SEPOLICY_UNION += \
+        genfs_contexts \
+        file_contexts \
+        bluetooth.te \
+        file.te \
+        mpdecision.te \
+        qseecomd.te \
+        rmt_storage.te \
+        sensors.te \
+        system_app.te \
+        thermal-engine.te \
+        wpa.te
+
 BOARD_RIL_CLASS := ../../../device/lge/g2-common/ril/
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/g2-common/releasetools
 
