@@ -211,11 +211,6 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         return status;
     }
 
-    @Override
-    public void
-    getDataCallProfile(int appType, Message result) {
-    }
-
     /*
     @Override
     protected DataCallResponse getDataCallResponse(Parcel p, int version) {
