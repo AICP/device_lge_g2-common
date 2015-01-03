@@ -17,7 +17,7 @@
 # Call common vendor
 $(call inherit-product-if-exists, vendor/lge/g2-common/g2-common-vendor.mk)
 
-## overlays
+# Overlays
 DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
 # System properties
