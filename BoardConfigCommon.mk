@@ -44,7 +44,6 @@ BOARD_KERNEL_SEPARATED_DT := true
 
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/g2-common/releasetools/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/lge/msm8974
-TARGET_KERNEL_ARCH := arm
 
 BOARD_USES_ALSA_AUDIO:= true
 
@@ -72,9 +71,6 @@ TARGET_USES_C2D_COMPOSITION := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
-
-# QCOM PowerHAL
-TARGET_POWERHAL_VARIANT := qcom
 
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
@@ -104,9 +100,6 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/g2-common/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/lge/g2-common/bluetooth/vnd_g2.txt
-
-# Fonts
-EXTENDED_FONT_FOOTPRINT := true
 
 # GPS
 TARGET_NO_RPC := true
