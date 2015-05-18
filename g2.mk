@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.g2
 
+# Doze
+PRODUCT_PACKAGES += \
+    G2Doze
+
 PRODUCT_PACKAGES += \
     audio_policy.default \
     audio.primary.msm8974 \
