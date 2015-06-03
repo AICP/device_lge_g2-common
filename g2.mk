@@ -157,6 +157,7 @@ PRODUCT_PACKAGES += \
     G2Doze
 
 PRODUCT_PACKAGES += \
+    audiod \
     audio_policy.default \
     audio.primary.msm8974 \
     audio.a2dp.default \
