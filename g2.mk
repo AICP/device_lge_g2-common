@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 # Thermal configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
+    $(LOCAL_PATH)/configs/thermal-engine-default.conf:system/etc/thermal-engine-default.conf
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -208,6 +209,10 @@ PRODUCT_COPY_FILES += \
 # Panel detection script
 PRODUCT_PACKAGES += \
     panel.sh
+
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_g2
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
