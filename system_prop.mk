@@ -37,7 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.pcm.24bit.enable=true \
     av.offload.enable=true \
     av.streaming.offload.enable=true \
-    tunnel.audio.encode=true \
+    tunnel.audio.encode=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true \
