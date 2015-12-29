@@ -397,10 +397,11 @@
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
-     <!-- Screen brightness when dozing -->
+    <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
 
-    <!-- Wether doze feature is enabled by default in settings. -->
+    <!-- Dream of notifications -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <bool name="config_dozeAfterScreenOff">true</bool>
 
     <!-- Specifies whether the dreams feature should be supported -->
