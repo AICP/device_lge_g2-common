@@ -24,5 +24,20 @@
     <!-- Vibration duration for MultiWaveView used in SearchPanelView -->
     <integer translatable="false" name="config_search_panel_view_vibration_duration">7</integer>
 
+    <!-- Doze: pulse parameter - delay to wait for the screen to wake up -->
+    <integer name="doze_pulse_delay_in">0</integer>
+
+    <!-- Doze: pulse parameter - how long does it take to fade in after an intent? -->
+    <integer name="doze_pulse_duration_in_intent">0</integer>
+
+    <!-- Doze: pulse parameter - delay to wait for the screen to wake up after an intent -->
+    <integer name="doze_pulse_delay_in_intent">0</integer>
+
+    <!-- Doze: should the pickup sensor be used as a pulse signal? -->
+    <bool name="doze_pulse_on_pick_up">true</bool>
+
+    <!-- Doze: shake accelerometer threshold -->
+    <integer name="doze_shake_accelerometer_threshold">10</integer>
+
 </resources>
 
