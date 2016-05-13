@@ -193,6 +193,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_g2
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # RIL
 PRODUCT_PACKAGES += \
     libril_shim
