@@ -83,6 +83,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hwaddrs
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=rome
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
