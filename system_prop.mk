@@ -57,7 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=false \
     persist.data.qmi.adb_logmask=0 \
     persist.qcril.disable_retry=true \
-    rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so \
+    rild.libpath=/vendor/lib/libril-qc-qmi-1.so \
     ro.use_data_netmgrd=true
 
 # Radio
