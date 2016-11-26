@@ -106,10 +106,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
@@ -191,10 +187,6 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_g2
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # RIL
 PRODUCT_PACKAGES += \
