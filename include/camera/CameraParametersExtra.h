@@ -5,6 +5,7 @@ const char CameraParameters::BEAUTY_SHOT_OFF[] = "beauty-shot"; \
 const char CameraParameters::BEAUTY_SHOT_ON[] = "beauty-shot"; \
 const char CameraParameters::BURST_SHOT_OFF[] = "burst-shot"; \
 const char CameraParameters::BURST_SHOT_ON[] = "burst-shot"; \
+const char CameraParameters::FOCUS_MODE_MANUAL_POSITION[] = "manual-position"; \
 const char CameraParameters::KEY_AUDIO_ZOOM[] = "audio-zoom"; \
 const char CameraParameters::KEY_AUDIO_ZOOM_SUPPORTED[] = "audio-zoom-supported"; \
 const char CameraParameters::KEY_BEAUTY_SHOT[] = "beauty-shot"; \
@@ -18,10 +19,9 @@ const char CameraParameters::KEY_VIDEO_WDR[] = "video-wdr"; \
 const char CameraParameters::KEY_VIDEO_WDR_SUPPORTED[] = "video-wdr-supported"; \
 const char CameraParameters::VIDEO_WDR_OFF[] = "video-wdr"; \
 const char CameraParameters::VIDEO_WDR_ON[] = "video-wdr"; \
+const char CameraParameters::WHITE_BALANCE_MANUAL_CCT[] = "white-balance-manual"; \
 const char CameraParameters::OBJECT_TRACKING_ON[] = "object-tracking"; \
-const char CameraParameters::OBJECT_TRACKING_OFF[] = "object-tracking"; \
-const char CameraParameters::FOCUS_MODE_MANUAL_POSITION[] = "manual"; \
-const char CameraParameters::WHITE_BALANCE_MANUAL_CCT[] = "manual-cct";
+const char CameraParameters::OBJECT_TRACKING_OFF[] = "object-tracking";
 
 
 #define CAMERA_PARAMETERS_EXTRA_H \
@@ -31,6 +31,7 @@ static const char BEAUTY_SHOT_OFF[]; \
 static const char BEAUTY_SHOT_ON[]; \
 static const char BURST_SHOT_OFF[]; \
 static const char BURST_SHOT_ON[]; \
+static const char FOCUS_MODE_MANUAL_POSITION[]; \
 static const char KEY_AUDIO_ZOOM[]; \
 static const char KEY_AUDIO_ZOOM_SUPPORTED[]; \
 static const char KEY_BEAUTY_SHOT[]; \
@@ -44,8 +45,6 @@ static const char KEY_VIDEO_WDR[]; \
 static const char KEY_VIDEO_WDR_SUPPORTED[]; \
 static const char VIDEO_WDR_OFF[]; \
 static const char VIDEO_WDR_ON[]; \
+static const char WHITE_BALANCE_MANUAL_CCT[]; \
 static const char OBJECT_TRACKING_ON[]; \
-static const char OBJECT_TRACKING_OFF[]; \
-static const char FOCUS_MODE_MANUAL_POSITION[]; \
-static const char WHITE_BALANCE_MANUAL_CCT[];
-
+static const char OBJECT_TRACKING_OFF[];
